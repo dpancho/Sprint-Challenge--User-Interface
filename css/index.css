@@ -212,8 +212,9 @@ footer nav a {
 
 button{
     padding: 5px 20px;
-	margin: 8px auto;
-	border-radius: 7px;
+    margin: 8px auto;
+    border: solid black;
+	border-radius: 5px;
     font-size: 0.8em;
     background: white;
 }
@@ -222,13 +223,14 @@ button{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;   
-    margin-bottom: 20px; 
+    margin-bottom: 30px; 
 }
 
 .strategy, .work, .places, .collab{
     width: 40%;
     border-bottom: 1px dashed;
-    margin-right: 40px;
+    margin-right: 55px;
+    padding: 10px 0;
 }
 
 .places, .collab {
