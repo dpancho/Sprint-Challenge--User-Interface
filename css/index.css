@@ -112,6 +112,10 @@ p {
     justify-content: center;
 }
 
+.box1{
+    background: teal;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +147,22 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.navbar nav{
+    display: flex; 
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 20px 5px
+}
+
+.navbar a{
+    text-decoration: none;
+    text-decoration-color: black;
+    color: black;
+}
+
+.stretchIndex{
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
