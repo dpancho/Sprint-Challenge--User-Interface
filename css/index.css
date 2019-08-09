@@ -219,6 +219,10 @@ button{
     background: white;
 }
 
+button:hover{
+    background: hotpink;
+}
+
 .gridAbout{
     display: flex;
     flex-wrap: wrap;
@@ -231,8 +235,15 @@ button{
     border-bottom: 1px dashed;
     margin-right: 55px;
     padding: 10px 0;
+    
 }
 
 .places, .collab {
     margin-top:20px;
+}
+
+.gridimg{
+    display:block;
+    height: 240px;
+    width: 320px;
 }
