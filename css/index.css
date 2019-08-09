@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    font-weight: bold;
 }
 
 html, body {
@@ -60,10 +61,12 @@ h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+    font-weight: bold;
 }
 
 p {
     line-height: 1.4;
+    font-weight: bold;
 }
 
 .container {
@@ -199,9 +202,35 @@ footer nav a {
     text-decoration: none;
     text-decoration-color: black;
     color: black;
+    font-weight: bold;
 }
 
 .stretchIndex{
     margin-top: 20px;
     margin-bottom: 30px;
+}
+
+button{
+    padding: 5px 20px;
+	margin: 8px auto;
+	border-radius: 7px;
+    font-size: 0.8em;
+    background: white;
+}
+
+.gridAbout{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;   
+    margin-bottom: 20px; 
+}
+
+.strategy, .work, .places, .collab{
+    width: 40%;
+    border-bottom: 1px dashed;
+    margin-right: 40px;
+}
+
+.places, .collab {
+    margin-top:20px;
 }
