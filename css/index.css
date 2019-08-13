@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    font-weight: bold;
 }
 
 html, body {
@@ -60,10 +61,12 @@ h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+    font-weight: bold;
 }
 
 p {
     line-height: 1.4;
+    font-weight: bold;
 }
 
 .container {
@@ -85,6 +88,10 @@ p {
     padding-bottom: 20px;  
 }
 
+.top-content p {
+    padding-bottom: 20px;
+}
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -104,12 +111,51 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box:nth-of-type(1){
+    background: teal;
+}
+
+.box:nth-of-type(2){
+    background:gold;
+}
+
+.box:nth-of-type(3){
+    background:cadetblue;
+}
+
+.box:nth-of-type(4){
+    background:coral;
+}
+
+.box:nth-of-type(5){
+    background:crimson;
+}
+
+.box:nth-of-type(6){
+    background: forestgreen;
+}
+
+.box:nth-of-type(7){
+    background:darkorchid;
+}
+
+.box:nth-of-type(8){
+    background: hotpink;
+}
+
+.box:nth-of-type(9){
+    background: indigo; 
+}
+
+.box:nth-of-type(10){
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +189,61 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.navbar nav{
+    display: flex; 
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 20px 5px
+}
+
+.navbar a{
+    text-decoration: none;
+    text-decoration-color: black;
+    color: black;
+    font-weight: bold;
+}
+
+.stretchIndex{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+button{
+    padding: 5px 20px;
+    margin: 8px auto;
+    border: solid black;
+	border-radius: 5px;
+    font-size: 0.8em;
+    background: white;
+}
+
+button:hover{
+    background: hotpink;
+}
+
+.gridAbout{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;   
+    margin-bottom: 30px; 
+}
+
+.strategy, .work, .places, .collab{
+    width: 40%;
+    border-bottom: 1px dashed;
+    margin-right: 55px;
+    padding: 10px 0;
+    
+}
+
+.places, .collab {
+    margin-top:20px;
+}
+
+.gridimg{
+    display:block;
+    height: 240px;
+    width: 320px;
 }
